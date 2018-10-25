@@ -6,9 +6,7 @@ saveImages = false;
 saveTrajectories = true;       
 
 try   
-   hairpin_tracing(kymo,expdir,outputDirName_0p05X, displayImages, saveImages , saveTrajectories ) 
-   % COMMENT:
-   FoundEdges = true;
+   FoundEdges = hairpin_tracing(kymo,expdir,outputDirName_0p05X, displayImages, saveImages , saveTrajectories );
 catch MExp
    FoundEdges = false;
    disp('Error which is not shortest path related.')
