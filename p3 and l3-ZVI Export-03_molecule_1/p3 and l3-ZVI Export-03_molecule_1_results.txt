@@ -1,0 +1,15 @@
+Highest evidence for Model 1 (probability 1.000). 
+
+Model 1 (probability 1.000):
+Estimated value for log10-evidence: -63.389 +/- 0.066.
+Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
+gamma:           9.2e-03  0.011    0.013    0.015    0.017    0.013    0.013   +/- 1.9e-03 
+force:           0.537    0.686    0.831    0.994    1.175    0.828    0.836   +/- 0.155   
+SI gamma         1.0e-03  1.2e-03  1.4e-03  1.6e-03  1.9e-03  1.4e-03  1.4e-03 +/- 2.1e-04 
+SI force         1.4e-14  1.7e-14  2.1e-14  2.5e-14  3.0e-14  2.1e-14  2.1e-14 +/- 4.0e-15 
+SI force/gamma   1.2e-11  1.3e-11  1.5e-11  1.7e-11  1.8e-11  1.5e-11  1.5e-11 +/- 1.7e-12 
+log10-Maximal likelihood: -59.976
+Information content model check:
+ Scaling n: 1       2       3      
+ p-value:   0.29    0.41    0.52   
+
