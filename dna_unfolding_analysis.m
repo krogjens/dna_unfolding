@@ -1,5 +1,9 @@
 function dna_unfolding_analysis(kymo,pixelSize,frameRate)
 
+% NB: The utilised code is prepared for use with Matlab 2016a and newer
+% possible compatibility issues may arise when using older versions of
+% Matlab
+
 if nargin == 0 % If no arguments are given perform the default example analysis
    % Target kymograph folder and perform Otsu segmentation to obtain coordinates
    kymo = 'p3 and l3-ZVI Export-03_molecule_1_kymograph.tif'; % Path to kymograph
